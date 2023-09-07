@@ -1,0 +1,82 @@
+/* tela.css (seu arquivo CSS principal) */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    background-color: #ffffff;;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+}
+
+.registro-container {
+    width: 320px;
+    max-width: 90%;
+    text-align: center;
+    position: relative;
+    z-index: 1; /* Coloca o conteúdo acima da SVG */
+}
+
+
+.registro-heading {
+    font-size: 24px;
+    color: #000000;
+    margin-bottom: 20px;
+}
+
+.registro-input {
+    width: 100%;
+    padding: 12px;
+    margin-bottom: 15px;
+    border: 2px solid #000000;
+    border-radius: 8px;
+    font-size: 16px;
+}
+
+.registro-button {
+    width: 100%;
+    padding: 12px;
+    border: none;
+    border-radius: 25px;
+    cursor: pointer;
+    background-color: #F18018;
+    color: #ffffff;
+    font-size: 16px;
+    font-weight: bold;
+    transition: background-color 0.3s ease-in-out;
+}
+
+.registro-button:hover {
+    background-color: rgb(206, 103, 6)
+}
+
+.voltar-link {
+    margin-top: 15px;
+}
+
+.voltar-link a {
+    color: #F18018;
+    text-decoration: none;
+    font-size: 14px;
+}
+
+
+.svg-container {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 242px;
+    height: auto;
+
+}
+/* Outros estilos do seu arquivo CSS... */
+
+label {
+    color: #000;
+font-family: Lexend Exa;
+font-size: 16px;
+font-style: normal;
+font-weight: 600;
+line-height: normal;
+margin-right: 290px;
+}

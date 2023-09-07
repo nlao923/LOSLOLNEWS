@@ -1,0 +1,72 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+
+@keyframes color {
+    50%   { background: #ff8800; }
+    80%  { background: #ff6f00; }
+  }
+
+
+.tt {
+    background: #000000; /* Fallback */
+    animation: color 9s infinite linear;
+    text-align: center;
+    padding: 2em;
+    position: relative;
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    transition: all .2s ease-in-out;
+    
+
+  
+   
+}
+
+
+.twitter-tweet:hover {
+    transform: scale(1.1);
+
+}
+
+.jc a:hover {
+    transition-duration: 1s;
+
+    background: #ffffff;
+  }
+
+.btn {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: fixed;
+    bottom: 10px;
+    right: 10px;
+    width: 50px;
+    height: 50px;
+    background-color: #000000;
+    text-decoration: none;
+}
+
+.btn::after {
+    content: "↑";
+    font-size: 32px;
+    font-weight: bold;
+    color:#ff4000 ;
+    transition: margin-top 250ms;
+}
+.btn:hover::after {
+    margin-top:-8px;
+}
+
+
+
+  

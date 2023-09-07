@@ -1,0 +1,328 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Condensed:wght@700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Caprasimo&display=swap');
+@import url("https://fonts.googleapis.com/css?family=Raleway:900&display=swap");
+@font-face {
+  font-family: nova;
+  src: url(/fonts/font.ttf) format(truetype); 
+  font-weight:  normal;
+  font-style: normal;
+
+}
+@font-face {
+  font-family: header;
+  src: url(/fonts/grtsk-tera-15.otf) format(truetype);
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: jc;
+  src: url(/fonts/jc-BlackItalic.ttf) format(truetype); 
+  font-weight:  normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: jc2;
+  src: url(/fonts/jc.ttf) format(truetype); 
+  font-weight:  normal;
+  font-style: normal;
+
+}
+
+@font-face {
+  font-family: pfv;
+  src: url(/DeraniaDemoPersonalLicense-JRlWB.otf) format(truetype); 
+  font-weight:  normal;
+  font-style: normal;
+
+}
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+ 
+ background: #000000;
+}
+
+
+
+
+
+
+
+html {
+  scroll-behavior: smooth;
+}
+
+.header {
+  padding-bottom: 10px;
+background: #FF7A00;
+}
+
+
+.menu {
+  text-align: center;
+}
+.menu ul li {
+  display: inline-block;
+ 
+}
+.menu ul li a {
+  display: block;
+  margin-top: 23px;
+  font-family: header;
+  color: #000000;
+  padding: 0px 10px;
+  text-decoration: none
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+#jogos {
+margin-top: 35px;
+}
+
+
+
+  
+
+  .redes-sociais {
+    display: flex;
+    justify-content: center; /* Centralizar os ícones horizontalmente */
+    align-items: center; /* Centralizar os ícones verticalmente */
+    background: none;
+  }
+  
+  .redes-sociais a {
+    margin: 5px; /* Espaçamento entre os ícones */
+    font-size: 25px;
+  }
+  
+  .redes-sociais img {
+    width: 30px; /* Tamanho dos ícones */
+    height: 30px;
+  }
+  
+
+
+
+
+
+
+.los {
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 150px; /* Defina o tamanho desejado */
+  height: 150px;
+
+}
+
+
+.los img {
+
+  width: 100%; /* Ajusta a largura da imagem para preencher o contêiner */
+  height: 100%; /* Ajusta a altura da imagem para preencher o contêiner */
+  object-fit: cover; /* Garante que a imagem seja ajustada corretamente dentro do contêiner */
+  margin-left: 84rem;
+  margin-bottom: 8rem;
+  
+}
+
+
+
+#sobre {
+display: flex; /* Usa flexbox para alinhar os itens horizontalmente */
+align-items: center; /* Alinha os itens verticalmente ao centro */
+margin-bottom: 48px;
+color: #ffffff;
+}
+
+.sobre-content {
+  margin-top: 30px;
+  max-width: 20px;
+  text-align: center;
+  margin-left: 30px;
+  flex: 1; /* Permite que o conteúdo "Sobre" ocupe o espaço disponível */
+}
+
+.sobre-content h2 {
+  font-size: 80px;
+  margin-bottom: 10px;
+  font-family: header;
+ 
+}
+
+.sobre-content p {
+ font-size: 50px;
+  font-family: header;
+}
+
+.sobre-content a {
+color: #ffffff;
+text-decoration: none;
+font-size: 35px;
+}
+
+
+
+
+
+#text  {
+  display: flex;
+  color: #ffffff;
+  position: absolute;
+  font-family: 'Caprasimo', cursive;
+  font-size: 38px;
+  text-align: center;
+ margin-bottom: 22rem;
+ right: 30rem;
+
+bottom: 75px;
+margin-top: 40px;
+}
+
+.twitter-tweet:hover {
+  transform: scale(1.1);
+
+}
+
+
+
+
+
+.owl-carousel .owl-item {
+border-radius: 20px;
+background: #ffffff;
+  padding-left: 120px; /* Ajuste este valor para controlar o espaçamento */
+  padding-right: 120px; /* Ajuste este valor para controlar o espaçamento */
+
+}
+
+
+
+
+
+header{
+
+  width: 100%;
+  height: 70px;
+  
+}
+
+
+
+
+footer {
+  background-color: #FF7A00; /* Cor de fundo do rodapé */
+ padding: 10px 0px;
+  text-align: center; /* Centralizar o conteúdo */
+  width: 100%; /* Largura total da página */
+  color: rgb(0, 0, 0);
+font-family: header;
+font-size: 20px;
+margin-top: 30px;
+}
+
+.rodape-content {
+  max-width: 800px;
+  margin: 0 auto;
+}
+
+/* Opcional: Estilize os links ou outros elementos do rodapé conforme necessário */
+
+
+.container {
+  max-width: 290px;
+ margin-left: 3rem;
+
+}
+
+h1 {
+  text-align: center;
+}
+
+.logo-desktop img {
+  margin-top: -25px;
+  display: flex;
+width: 40px;
+  height: auto;
+ 
+ 
+}
+
+
+
+
+
+
+/* Estilos para telas menores (smartphones) */
+@media (max-width: 768px) {
+  .owl-carousel .owl-item {
+      padding-left: 30px; /* Ajuste este valor para controlar o espaçamento */
+      padding-right: 30px; /* Ajuste este valor para controlar o espaçamento */
+    
+    }
+    .logo-desktop img {
+      margin-top: -25px;
+      display: flex;
+    width: 30px;
+      height: auto;
+     
+     
+    }
+
+    footer {
+      background-color: #FF7A00; /* Cor de fundo do rodapé */
+    
+      text-align: center; /* Centralizar o conteúdo */
+      width: 100%; /* Largura total da página */
+      color: rgb(0, 0, 0);
+    font-family: header;
+    font-size: 10px;
+    margin-top: 30px;
+    }
+  
+    .sobre-content h2 {
+      font-size: 60px;
+      margin-bottom: 10px;
+      font-family: header;
+     
+    }
+
+   
+    .menu {
+      text-align: center;
+    }
+    .menu ul li {
+      display: inline-block;
+     
+    }
+    .menu ul li a {
+      display: block;
+      margin-top: 28px;
+      font-family: header;
+      color: #000000;
+      padding: 0px 10px;
+      font-size: 7px;
+      text-decoration: non
+      
+      
+    }
+    
+  }
