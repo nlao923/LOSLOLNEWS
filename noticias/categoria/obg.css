@@ -1,0 +1,42 @@
+@font-face {
+    font-family: header;
+    src: url(/fonts/grtsk-tera-15.otf) format(truetype);
+    font-weight: normal;
+    font-style: normal;
+  }
+
+
+
+.main{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+    background: #FF7A00;
+    flex-direction: column;
+
+ }
+
+ .text {
+    font-size: 45px;
+    color: #ffffff;
+    margin-bottom: 30px;
+ }
+
+ .paragrafo {
+    color: #ffffff;
+    margin-bottom: 50px;
+ }
+
+ .btn {
+    padding: 15px 55px;
+    background: #ffffff;
+    text-decoration: none;
+   color: #000000;
+  font-size: 13px;
+  transition: all 0.5s;
+ }
+ 
+ .btn:hover {
+    border-radius: 16px;
+ }

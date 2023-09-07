@@ -1,0 +1,99 @@
+
+@font-face {
+    font-family: header;
+    src: url(/fonts/grtsk-tera-15.otf) format(truetype);
+    font-weight: normal;
+    font-style: normal;
+  }
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: header;
+}
+
+body{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+    background: black;
+}
+
+section {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    padding: 10px 45px;
+    padding: 10px 20px; /* Reduzi o padding horizontal para caber em telas menores */
+    max-width: 800px; /* Em vez de definir uma largura fixa, use max-width para torná-lo responsivo */
+    width: 100%; /* Adicionei essa linha para garantir que ele preencha a largura disponível */
+   
+}
+
+section h2 {
+    color: white;
+    font-size: 2.5rem;
+    margin: 2rem;
+}
+
+section form {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+   
+}
+form label {
+    color: #ffffff;
+    font-size: 12px;
+    margin-bottom: 4px;
+}
+
+form input {
+    padding: 15px;
+    outline: none;
+    border: 0;
+    margin-bottom: 20px;
+    font-size: 16px; /* Aumentei o tamanho da fonte para melhor legibilidade em dispositivos menores */
+    transition: all 0.5s;
+    width: 100%; /* Adicionei essa linha para ocupar a largura disponível */
+}
+
+form input:focus{
+    border-radius: 16px;
+}
+
+form textarea {
+    padding: 10px;
+    outline: none;
+    border: 0;
+    font-size: 15px;
+    margin-bottom: 30px;
+    transition: all 0.5s;
+    width: 100%; /* Adicionei essa linha para ocupar a largura disponível */
+}
+
+form textarea:focus {
+ border-radius: 16px;
+}
+
+form button {
+    padding: 15px;
+    cursor: pointer;
+    font-size: 16px;
+    background: transparent;
+    border: 2px solid #ffffff;
+    color: #ffffff;
+    transition: all 1s;
+    margin-bottom: 20px;
+    width: 100%; /* Adicionei essa linha para ocupar a largura disponível */
+}
+
+form button:hover {
+    background: #ffffff;
+    color: #000;
+    border-radius: 16px;
+}
+ 

@@ -1,0 +1,303 @@
+/* Reset de estilos padrão */
+
+@font-face {
+  font-family: titulo;
+  src: url(/fonts/Benzin\ Extra\ Bold.ttf) format(truetype); 
+  font-weight:  normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: texto;
+  src: url(/fonts/Benzin\ Regular.ttf) format(truetype); 
+  font-weight:  normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: header;
+  src: url(/fonts/grtsk-tera-15.otf) format(truetype); 
+  font-weight:  normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: pfv;
+  src: url(/DeraniaDemoPersonalLicense-JRlWB.otf) format(truetype); 
+  font-weight:  normal;
+  font-style: normal;
+
+}
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* Estilo para o corpo da página */
+body {
+  font-family: Arial, sans-serif;
+  background-color: #000000;
+  margin: 0;
+  padding: 0;
+}
+
+/* Estilo para o cabeçalho */
+header {
+  background-color:#FF7A00;
+  color: #000000;
+  padding: 16px;
+  text-align: center;
+
+}
+
+header h1 {
+  font-size: 36px;
+  font-family: pfv;
+}
+
+nav ul {
+  list-style: none;
+}
+
+nav ul li {
+  display: inline;
+  margin-right: 20px;
+  display: inline-block;
+
+}
+
+
+
+nav a {
+  color: #000000;
+  text-decoration: none;
+  font-family: header;
+
+}
+
+
+
+/* Estilo para as notícias */
+.noticia {
+  margin: 20px;
+  padding: 20px;
+  border-radius: 5px;
+}
+
+.noticia h2 {
+  font-size: 30px;
+  margin-bottom: 10px;
+  line-height: 1.5;
+  text-align: center;
+  color: #FF7A00;
+  font-family: titulo;
+}
+
+/* No seu arquivo de estilo CSS */
+.center-text {
+  font-size: 22px;
+  max-width: 700px; /* Defina a largura máxima desejada */
+  margin: 0 auto; /* Centralize horizontalmente */
+  text-align: center; /* Centralize o texto dentro do parágrafo */
+  color: #fff;
+  font-family: titulo;
+}
+
+
+/* Estilo para o rodapé */
+footer {
+  background-color: #FF7A00;
+  color: #000000;
+  text-align: center;
+  width: 100%;
+  padding: 10px;
+  font-family: header;
+}
+
+/* Estilo para o vídeo */
+.video-container {
+  position: relative;
+margin-bottom:300px;
+
+}
+
+.video-container iframe {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 460px;
+  height: 250px;
+  border-radius: 25px;
+margin-top: 90px;
+margin-left: 65rem;
+}
+
+
+
+#titulo h2 {
+  padding-top: 30px;
+  text-align: center;
+  color: #FF7A00;
+  font-family: titulo;
+}
+
+
+
+.noticia01 {
+  max-width: 800px; /* Defina a largura máxima desejada */
+  margin: 0 auto; /* Centralize o elemento na tela */
+  padding: 20px;
+  text-align: justify; /* Justifique o texto */
+  color:#FF7A00; /* Cor do texto */
+  font-family: titulo; /* Fonte do texto */
+}
+
+
+.noticia01 a {
+text-decoration: none;
+color: #ffffff;
+}
+/* Estilo para o parágrafo center-text dentro de noticia01 */
+
+/* Estilo para o div twiter01 dentro de noticia01 */
+
+
+/* Estilo para o blockquote twitter-tweet dentro de twiter01 */
+
+
+.botao-fonte {
+  background-color: #FF7A00; /* Cor de fundo do botão */
+  color: #000000; /* Cor do texto do botão */
+  padding: 2px 10px; /* Espaçamento interno do botão */
+  text-decoration: none; /* Remover sublinhado padrão de links */
+  border-radius: 5px; /* Borda arredondada */
+  margin-left: 300px;
+  transition: background-color 0.7s;
+ 
+}
+
+.botao-fonte:hover {
+  background-color:#eb892e /* Cor de fundo ao passar o mouse */
+}
+
+#contato {
+  display: none;
+}
+
+/* Estilos para o rodapé (footer) */
+footer {
+  background-color:#FF7A00; /* Cor de fundo do rodapé */
+  color: #000000; /* Cor do texto no rodapé */
+  padding: 20px 0; /* Espaçamento interno do rodapé */
+}
+
+.footer-content {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 20px;
+}
+
+.footer-contact a {
+ text-decoration: none;
+  color: #fff;
+}
+
+.footer-logo img {
+ width: 90px;
+}
+
+.footer-info p, .footer-contact p {
+  margin: 5px 0;
+  color: #000000;
+}
+
+.footer-info a {
+  color: #000000; /* Cor dos links do rodapé */
+  text-decoration: none;
+  margin-right: 10px;
+}
+
+/* Estilos para os links no rodapé quando o cursor está sobre eles */
+.footer-info a:hover {
+  text-decoration: underline;
+}
+
+/* Outros estilos do seu site aqui */
+
+
+/* Estilos para telas menores (smartphones) */
+
+ 
+  /* Estilos para telas menores (smartphones) */
+@media (max-width: 768px) {
+  header {
+      padding: 10px; /* Reduza o preenchimento do cabeçalho */
+  }
+
+  header h1 {
+      font-size: 24px; /* Reduza o tamanho da fonte do cabeçalho */
+  }
+
+  nav ul {
+    text-align: center; /* Centralize os itens de navegação */
+    padding-top: 10px; /* Adicione um espaço superior para separar do cabeçalho */
+}
+
+nav ul li {
+    display: inline-block; /* Exiba os itens de lista em linha */
+    margin: 0 10px; /* Adicione margens laterais para espaçamento */
+  
+}
+
+nav a {
+  font-size: 8px;
+}
+
+  .noticia {
+      margin: 10px;
+      padding: 10px; /* Reduza o preenchimento da notícia */
+  }
+
+  .noticia h2 {
+      font-size: 24px; /* Reduza o tamanho da fonte do título da notícia */
+  }
+
+  .center-text {
+      font-size: 18px; /* Reduza o tamanho da fonte do texto central */
+      max-width: 100%; /* Faça com que o texto central ocupe a largura máxima */
+      margin: 0 auto; /* Centralize horizontalmente */
+      text-align: justify; /* Justifique o texto */
+  }
+
+  .video-container iframe {
+      width: 100%; /* Faça com que o vídeo ocupe 100% da largura */
+      height: 200px; /* A altura será ajustada automaticamente */
+      margin-left: 0; /* Remova a margem esquerda fixa */
+  padding-top: 30px;
+  }
+
+  #titulo h2 {
+      padding-top: 20px; /* Ajuste o espaçamento superior do título do vídeo */
+      font-size: 24px; /* Reduza o tamanho da fonte do título do vídeo */
+  }
+
+  .btn {
+      margin-left: 10px; /* Ajuste a margem esquerda do botão */
+  }
+
+  .btn::after {
+      font-size: 24px; /* Reduza o tamanho do ícone do botão */
+  }
+
+  .botao-fonte {
+    margin: 0;
+    padding: 0px 10px; /* Espaçamento interno do botão */
+  }
+
+ 
+
+  /* Mais ajustes para telas menores, se necessário */
+}
